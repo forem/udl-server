@@ -4,8 +4,13 @@ This is a server that bounces traffic to better leverage Deep Linking in mobile 
 
 The project's objectives are to be a simple, effective and lightweight tool that can help any website provide a seamless integration with their mobile apps.
 
-The server is hosted at [`https://udl.visualcosita.com`](https://udl.visualcosita.com) open for public use, free of charge.
+The server is hosted at [`https://forem-udl-server.herokuapp.com`](https://forem-udl-server.herokuapp.com) for use for Forem's mobile app.
 
+---
+
+**The rest of this document come directly from the [UDL-Server project readme](https://github.com/fdoxyz/udl-server/blob/main/README.md)**
+
+---
 ## How it works, and why?
 
 It's a dead simple pivot server that will redirect to whatever you pass in the `r` query param to the root path.
