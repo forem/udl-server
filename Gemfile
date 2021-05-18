@@ -5,7 +5,7 @@ source "https://rubygems.org"
 ruby File.read(File.join(File.dirname(__FILE__), ".ruby-version")).strip
 
 gem 'sinatra', '~> 2.1'
-gem 'puma', '~> 5.2', '>= 5.2.2'
+gem 'puma', '~> 5.3'
 gem 'rack-attack', '~> 6.5'
 gem 'redis-activesupport', '~> 5.2'
 
