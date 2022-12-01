@@ -4,7 +4,7 @@ git_source(:github) { |name| "https://github.com/#{name}.git" }
 source "https://rubygems.org"
 ruby File.read(File.join(File.dirname(__FILE__), ".ruby-version")).strip
 
-gem 'sinatra', '~> 2.1'
+gem 'sinatra', '~> 2.2'
 gem 'puma', '~> 5.6'
 gem 'rack-attack', '~> 6.5'
 gem 'redis-activesupport', '~> 5.2'
